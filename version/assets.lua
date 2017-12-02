@@ -1,303 +1,303 @@
 return {
 	['config.luac'] = {
-		md5 = 'd9c4ce4b95afba756bc2670db35a57f3',
-		size = 685
+		md5 = 'a3749d34e17757d1fd6d0a33b2161bf5',
+		size = 317
 	},
 	['main.luac'] = {
-		md5 = '30953db04e4270cb317aab2cd5931110',
-		size = 273
+		md5 = '959dc87adfb0dfd583f2c93f93ae5f39',
+		size = 321
 	},
 	['app/app.luac'] = {
-		md5 = '513170a36151cf3b4fe48cc5ceb3820d',
-		size = 789
+		md5 = '52fa4352d79be3dcbc70dd79ab1f0f02',
+		size = 609
 	},
 	['app/util/network/constant.luac'] = {
-		md5 = 'e22ae69b9f325b1e2ede5f5c5357875e',
-		size = 377
+		md5 = '175141b7c7ccdedf527540997d629d73',
+		size = 145
 	},
 	['app/util/network/hotupdate.luac'] = {
-		md5 = '1556aef06971634b47323e6a214edd53',
-		size = 25
+		md5 = '13cad9cb5def907adaa3c5482f378230',
+		size = 49
 	},
 	['app/util/network/download.luac'] = {
-		md5 = '409f080fc08a4b42ad43cf3827495cd1',
-		size = 4541
+		md5 = 'a7c7f1a98222fd397fceaf5c15a6c070',
+		size = 2321
 	},
 	['app/util/network/subpackage.luac'] = {
-		md5 = '1556aef06971634b47323e6a214edd53',
-		size = 25
+		md5 = '13cad9cb5def907adaa3c5482f378230',
+		size = 49
 	},
 	['app/util/hotupdate/hotupdate.luac'] = {
-		md5 = 'ec6ba025df308b831acf60396df82472',
-		size = 4585
+		md5 = 'a71d5b41c61f1a0f0cb4e2a1d75eb5be',
+		size = 2577
 	},
 	['app/util/env/const.luac'] = {
-		md5 = '364e293549ec104c071ca0b1ee35e66b',
-		size = 1149
+		md5 = '281a19029e3c698a64d7b23cf9352d0e',
+		size = 205
 	},
 	['app/util/env/env.luac'] = {
-		md5 = '1dd39a5805931fcd103760cc5a74d21a',
-		size = 1517
+		md5 = '13031e458cbd6b424f17dcbabf830cd5',
+		size = 981
 	},
 	['app/util/log/log.luac'] = {
-		md5 = '8a7f8aa4c82279cabf9bd10a78592435',
-		size = 833
+		md5 = 'f449b5683130061012b7e40090a8aa3e',
+		size = 637
 	},
 	['app/views/MainScene.luac'] = {
-		md5 = 'cfcf74f598b46ba4695a0ecc7726a43d',
-		size = 421
+		md5 = '7f9fdfde255d31645746f1cbb502799d',
+		size = 393
 	},
 	['cocos/init.luac'] = {
-		md5 = '37c0ba83b513c441d830b18696f21ba1',
-		size = 3237
+		md5 = '93e78a4b2033fdf51fe157ddd9854fd7',
+		size = 1829
 	},
 	['cocos/ui/experimentalUIConstants.luac'] = {
-		md5 = '790e31675b17f70af66c52f4be05452d',
-		size = 161
+		md5 = '1d17f00f5b0bdc9c433c96622a29fcee',
+		size = 145
 	},
 	['cocos/ui/DeprecatedUIFunc.luac'] = {
-		md5 = '3769e08913feab997b1a59952aff15cf',
-		size = 9861
+		md5 = 'a5492ba2af9546e871bb46d21974e0e8',
+		size = 5285
 	},
 	['cocos/ui/GuiConstants.luac'] = {
-		md5 = '4077c670fa7fb7383e3096743d96cfb5',
-		size = 3433
+		md5 = '4b92468092950e5baa52a2c1736ba66b',
+		size = 2665
 	},
 	['cocos/ui/DeprecatedUIEnum.luac'] = {
-		md5 = '3897fa47790601857a1076ab44522766',
-		size = 5157
+		md5 = 'cbf25a8bdd54fb3e28f983779d719214',
+		size = 3509
 	},
 	['cocos/3d/3dConstants.luac'] = {
-		md5 = '93bce35fd97afbc938699a5ce33c4e9d',
-		size = 229
+		md5 = '0b519e7e96fa4704f3286ed6c5e32e68',
+		size = 217
 	},
 	['cocos/cocosbuilder/DeprecatedCocosBuilderClass.luac'] = {
-		md5 = '7236e4dc9c57eb98e89ce911517bbc15',
-		size = 1205
+		md5 = '9b7a55088c1a5ffefc607b0e11ad87ed',
+		size = 621
 	},
 	['cocos/cocosbuilder/CCBReaderLoad.luac'] = {
-		md5 = 'dbbe238e167587f9a6ea47d6169ba13c',
-		size = 5605
+		md5 = 'a65d3749830c916c8aaaf03a076ca9ab',
+		size = 2309
 	},
 	['cocos/extension/ExtensionConstants.luac'] = {
-		md5 = 'd0ebe7124b0ea7c240b0b44408066223',
-		size = 2029
+		md5 = 'ce7428d3745d8d66f13c0f9c7c062ddf',
+		size = 2261
 	},
 	['cocos/extension/DeprecatedExtensionClass.luac'] = {
-		md5 = '54e325aa3b50a592179f915d4e75d7c9',
-		size = 4869
+		md5 = '5344bb46bef900d128a458c82fb1c99b',
+		size = 2425
 	},
 	['cocos/extension/DeprecatedExtensionEnum.luac'] = {
-		md5 = '0fd53fff5b24b9aef779a4b9a949b466',
-		size = 1441
+		md5 = '1e529afd256765b27e915651315ba3a8',
+		size = 1501
 	},
 	['cocos/extension/DeprecatedExtensionFunc.luac'] = {
-		md5 = '91cc3795d1887505a46e5bb5ba3da421',
-		size = 1381
+		md5 = 'd3a4f50df7e66366bc4495d7e3ab9b73',
+		size = 869
 	},
 	['cocos/spine/SpineConstants.luac'] = {
-		md5 = '58f2e2f9d089d0b29b89da5772ce4b87',
-		size = 241
+		md5 = 'daba23be8e76fd41146335c2ed37d268',
+		size = 209
 	},
 	['cocos/framework/transition.luac'] = {
-		md5 = 'db5a0d1be0a3839bdfb779fdde24eb28',
-		size = 7553
+		md5 = 'cebcb317f06713ef0c38cef026c60dd0',
+		size = 4889
 	},
 	['cocos/framework/audio.luac'] = {
-		md5 = 'dd3cabcb1cc1a55007460498ede0a10c',
-		size = 5689
+		md5 = '961ac6952e235de1ea5ddd6200d1de6a',
+		size = 4001
 	},
 	['cocos/framework/init.luac'] = {
-		md5 = '352900223e7013eb99b27c5862e0ed70',
-		size = 2737
+		md5 = 'dcc0ba95da93935ca9108309b32e58d1',
+		size = 1513
 	},
 	['cocos/framework/package_support.luac'] = {
-		md5 = '738dfdd8b21a770f82367daa07bd5edf',
-		size = 4045
+		md5 = '82d4f24d96af397e9e9207a953834d2f',
+		size = 2029
 	},
 	['cocos/framework/display.luac'] = {
-		md5 = 'f847174805996144d5eec0e1a99befd4',
-		size = 21381
+		md5 = '7c2cf68a3cca4a5e9a1b3c51f866a53b',
+		size = 12745
 	},
 	['cocos/framework/device.luac'] = {
-		md5 = 'fc1a169e7e185f041faacdfc9f6d9d71',
-		size = 3881
+		md5 = '1ccc8bb1bf696e6b6e7d7b4215a9c5aa',
+		size = 1901
 	},
 	['cocos/framework/extends/UISlider.luac'] = {
-		md5 = '95498b9dffb0de2de307fc13034301b7',
-		size = 1433
+		md5 = '09da806d6e292eb45cb90c20431c1d47',
+		size = 221
 	},
 	['cocos/framework/extends/UIScrollView.luac'] = {
-		md5 = 'e88425cd351d7b82a0a04a52294c8507',
-		size = 2241
+		md5 = '346a5558a070e315fb0491bacec6204a',
+		size = 585
 	},
 	['cocos/framework/extends/LayerEx.luac'] = {
-		md5 = '368248d0d2d2e4cb3e5afac7726dede3',
-		size = 2653
+		md5 = '4bc4b48cc159b6bf5c252f7bada4e627',
+		size = 1005
 	},
 	['cocos/framework/extends/UIPageView.luac'] = {
-		md5 = 'e391f727d59957c7e0d267713b182ba4',
-		size = 1425
+		md5 = '1f3d8f89d120e5a577004cb75994ab05',
+		size = 209
 	},
 	['cocos/framework/extends/MenuEx.luac'] = {
-		md5 = '99faf33d7a314e99beeb49b3b0498aae',
-		size = 1269
+		md5 = 'daa82ed9bf8fe4eeb59ee1cd62ed38ce',
+		size = 153
 	},
 	['cocos/framework/extends/UIWidget.luac'] = {
-		md5 = '150d2b99b029cdb44fc56b2266867886',
-		size = 1601
+		md5 = 'db5c155ce5d99ace185c6d4291a1ed3a',
+		size = 297
 	},
 	['cocos/framework/extends/SpriteEx.luac'] = {
-		md5 = '98bfcb8aa4d18ec8067fe3925efeb27e',
-		size = 2185
+		md5 = 'a12d101bcd1163c4b475158584e2187f',
+		size = 741
 	},
 	['cocos/framework/extends/UITextField.luac'] = {
-		md5 = '485e78ffcf17fc5e0b756ac8588abce9',
-		size = 1665
+		md5 = '49a52cb7671d95d83e472ac8fbf9d5e7',
+		size = 325
 	},
 	['cocos/framework/extends/NodeEx.luac'] = {
-		md5 = 'af0df1dba17509dec51deebd4a91f2b1',
-		size = 5201
+		md5 = 'e3f00da44d9dc49bd97a5111a4e4f11a',
+		size = 2913
 	},
 	['cocos/framework/extends/UIListView.luac'] = {
-		md5 = '2eae43392f3887c217f27c2b86c78222',
-		size = 2557
+		md5 = '46e78d11757c08eeebb08fdc9cd9f954',
+		size = 765
 	},
 	['cocos/framework/extends/UICheckBox.luac'] = {
-		md5 = 'cb8bf6f1df697168b10ee66bcdc910ad',
-		size = 1477
+		md5 = 'b68e0ff49b17da62c2eff3a76859bbae',
+		size = 233
 	},
 	['cocos/framework/extends/UIEditBox.luac'] = {
-		md5 = 'e0d48c8d8b5568e37f15f2c50744d883',
-		size = 1481
+		md5 = '4b15400eb975196ee9a40143efe7cd47',
+		size = 285
 	},
 	['cocos/framework/components/event.luac'] = {
-		md5 = '35fa3b9c08e9f5ad0edfb587e6b82684',
-		size = 4781
+		md5 = 'a6a1f0cd3ace8a730b5ad81b95f6f82a',
+		size = 3097
 	},
 	['cocos/network/DeprecatedNetworkFunc.luac'] = {
-		md5 = 'aa6755bb60c0b66322cba485079249f9',
-		size = 1153
+		md5 = '397aff835e35567e32307e2c501805fa',
+		size = 729
 	},
 	['cocos/network/DeprecatedNetworkEnum.luac'] = {
-		md5 = '119d43de897e5e8096ede22a4bb2b3c4',
-		size = 553
+		md5 = 'f684b53257ab1cece4b325eb305376ea',
+		size = 549
 	},
 	['cocos/network/NetworkConstants.luac'] = {
-		md5 = '2e4de23bec2c9a2ed20a0c5f6434c530',
-		size = 541
+		md5 = '6714eb053b9d87b6f8a62ce38bd609fe',
+		size = 561
 	},
 	['cocos/network/DeprecatedNetworkClass.luac'] = {
-		md5 = 'f7acc659656bd0d7c8368e4009556e06',
-		size = 593
+		md5 = '8058051990e3a0c8061fca2a84a13aa1',
+		size = 365
 	},
 	['cocos/controller/ControllerConstants.luac'] = {
-		md5 = '38c34fc36be0d554862a3f4c4476dbbb',
-		size = 757
+		md5 = '7e7e15bb2ff521fe578e1746c10dc6ae',
+		size = 557
 	},
 	['cocos/cocos2d/Opengl.luac'] = {
-		md5 = 'ac6a6a9f6ee5302856f7df590674a68a',
-		size = 6885
+		md5 = '774c4fb6a7226961457476735d6c9405',
+		size = 4325
 	},
 	['cocos/cocos2d/DeprecatedCocos2dFunc.luac'] = {
-		md5 = '85fb74946c421bf6f3ed1493ca4ad989',
-		size = 39501
+		md5 = '42a23075232b902699ff474fb87a821e',
+		size = 24721
 	},
 	['cocos/cocos2d/json.luac'] = {
-		md5 = 'aa6159b898d2bb7cb5928947feef856d',
-		size = 15385
+		md5 = '976c8758b42db6354916f77f2d37700d',
+		size = 5093
 	},
 	['cocos/cocos2d/DeprecatedCocos2dEnum.luac'] = {
-		md5 = '04e8228f2bf05f8758f75a3afb8ef775',
-		size = 16901
+		md5 = '088bb8d44c76b2d2ac75fda54f462e1e',
+		size = 20653
 	},
 	['cocos/cocos2d/deprecated.luac'] = {
-		md5 = '64de5e4546ed102eb1f473e81b24076e',
-		size = 521
+		md5 = '763ee1f4f43e0d66c60f20da54edcffc',
+		size = 429
 	},
 	['cocos/cocos2d/Cocos2dConstants.luac'] = {
-		md5 = '4109eb7cc0007234597fc024f150ace6',
-		size = 16701
+		md5 = 'fb2256b09bd2b46cf8ea079e91b24339',
+		size = 15765
 	},
 	['cocos/cocos2d/DeprecatedCocos2dClass.luac'] = {
-		md5 = 'f3ea46cccafa6911e4862d8e60bd9dd1',
-		size = 60769
+		md5 = '8e21c7b79eae7ff13bd5dda7c76c0a46',
+		size = 30285
 	},
 	['cocos/cocos2d/functions.luac'] = {
-		md5 = 'd8705b67297865a360b901b53bdec4c2',
-		size = 17201
+		md5 = '46cd2cdfe26e4825830bcdbad4eb7c31',
+		size = 9513
 	},
 	['cocos/cocos2d/OpenglConstants.luac'] = {
-		md5 = '09ae39eb28a62ea1b6138a0875dd3f70',
-		size = 27157
+		md5 = '9481daa080e583812b933a8930d445d7',
+		size = 30261
 	},
 	['cocos/cocos2d/Cocos2d.luac'] = {
-		md5 = 'ac568c65e08221da67dd84a07864c2d6',
-		size = 13413
+		md5 = 'b8e32c3ecc52627833d79da3c7477292',
+		size = 9229
 	},
 	['cocos/cocos2d/luaj.luac'] = {
-		md5 = 'e21891beb0ba6e221c97b4f1041f97bf',
-		size = 957
+		md5 = '6e33fe6f627e84d6f1cab946b1f30957',
+		size = 477
 	},
 	['cocos/cocos2d/bitExtend.luac'] = {
-		md5 = '906a95684ec48dc65d8d33facdec6e36',
-		size = 1621
+		md5 = 'bbe43ac5b85f15e2d4d0ca9ae5b7a464',
+		size = 1133
 	},
 	['cocos/cocos2d/DeprecatedOpenglEnum.luac'] = {
-		md5 = '99c94411f274b931faf1b5946000e9ec',
-		size = 11965
+		md5 = '5732d22a05a9a4e7c9afeb05479b26ca',
+		size = 15489
 	},
 	['cocos/cocos2d/luaoc.luac'] = {
-		md5 = 'a934e6c00df1bd55ddca0a4f36e78975',
-		size = 909
+		md5 = '640aa1451fcaeec65dd374d84459c2b9',
+		size = 597
 	},
 	['cocos/cocos2d/DrawPrimitives.luac'] = {
-		md5 = '76f58d7b0cbc4e9e311e719c530ca848',
-		size = 12053
+		md5 = '70447ba7a2aef0e4023da2a03d03d93a',
+		size = 8373
 	},
 	['cocos/cocosdenshion/DeprecatedCocosDenshionFunc.luac'] = {
-		md5 = '8b9f2652e1226dfec13c6609bda08339',
-		size = 941
+		md5 = '3eb38e627b7b0a2e51168c9c6ef12ab7',
+		size = 553
 	},
 	['cocos/cocosdenshion/AudioEngine.luac'] = {
-		md5 = '0dd038cc97e8dbe1effc65c48818575f',
-		size = 2697
+		md5 = '646becb429952977e55d112f0b403366',
+		size = 2737
 	},
 	['cocos/cocosdenshion/DeprecatedCocosDenshionClass.luac'] = {
-		md5 = '38f3cc258ec10a49d03503984fe7c585',
-		size = 693
+		md5 = '31fbad3666184103251eaa73c7e4a050',
+		size = 381
 	},
 	['cocos/physics3d/physics3d-constants.luac'] = {
-		md5 = '092c7728395ac9a402dfeaaba50bdb4c',
-		size = 293
+		md5 = '425adb2d2870ae316e18474ef56d2f56',
+		size = 257
 	},
 	['cocos/cocostudio/DeprecatedCocoStudioClass.luac'] = {
-		md5 = 'e698f5cb1471a3ae10f6f3031b60c06c',
-		size = 10777
+		md5 = 'a0a6406c713da15f002dc1d819ddfcb9',
+		size = 4697
 	},
 	['cocos/cocostudio/CocoStudio.luac'] = {
-		md5 = 'a389681722fd917dd987aa8cae19717a',
-		size = 9465
+		md5 = 'f116c80ce9f83bd2a4b834a5dd43cdbc',
+		size = 5801
 	},
 	['cocos/cocostudio/DeprecatedCocoStudioFunc.luac'] = {
-		md5 = 'be5ab3f4a0977ea86c5a240e3b99c101',
-		size = 3485
+		md5 = 'a24aab64abfb7bd99c39a6e5a6aff58c',
+		size = 1853
 	},
 	['cocos/cocostudio/StudioConstants.luac'] = {
-		md5 = '9fb2eeb6155950a7ff6111349bbd6cc7',
-		size = 237
+		md5 = '978c5b2b69e53224e2d88d45cfc4892f',
+		size = 209
 	},
 	['packages/mvc/AppBase.luac'] = {
-		md5 = '45f60323aead666e7480ad7eb42cf607',
-		size = 1885
+		md5 = 'e72bfabb83c164b480f215dcdad4ff5f',
+		size = 1317
 	},
 	['packages/mvc/init.luac'] = {
-		md5 = '50d1907e06289240f624c378751688e3',
-		size = 125
+		md5 = '8dd1f9312399297f655164379eed8cc8',
+		size = 129
 	},
 	['packages/mvc/ViewBase.luac'] = {
-		md5 = '8c8a569c6a68a4ed7fbaf5528ffb62bd',
-		size = 1917
+		md5 = '19dead17880cc95694fbf12700adb0d2',
+		size = 1341
 	},
 	['HelloWorld.png'] = {
 		md5 = '3c182a4410bd5502a0304f5f7660c21f',

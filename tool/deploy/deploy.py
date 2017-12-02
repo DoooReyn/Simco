@@ -11,17 +11,13 @@ import hash_file as hashtool
 
 def deploy(platform):
     # cjpg.compress()
-    cpng.compress(cpng.SOUR_DIR, 'Update')
-    encrypt.encrypt(platform)
-    hashtool.hash()
+    if cpng.compress(cpng.SOUR_DIR, 'Update'):
+        if encrypt.encrypt(platform):
+            hashtool.hash()
 
 if __name__ == '__main__':
     import sys
     if len(sys.argv) == 1:
-        print 'need target platform : android/ios'
+        print 'need target platform : android/ios32/ios64'
     else:
-        platform = sys.argv[1]
-        if platform == 'android' or  platform == 'ios':
-            deploy(platform)
-        else:
-            print 'need target platform : android/ios'
+        deploy(sys.argv[1])

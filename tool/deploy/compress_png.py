@@ -12,17 +12,23 @@ def pngquant(filepath, filebase, comtype):
     os.system('pngquant --quality=85-90 --floyd=0.5 -o %s %s --force' % (locate, filepath))
     osize = helper.format_file_size(os.path.getsize(filepath))
     csize = helper.format_file_size(os.path.getsize(locate))
-    print('[compressing] %s(%s) >>> %s(%s)' % (filepath, osize, locate, csize))
+    # print('[compressing] %s(%s) >>> %s(%s)' % (filepath, osize, locate, csize))
     
 def compress(dirpath, comtype):
-    prefix = os.path.abspath(dirpath) + '/'
-    for root, dirs, files in os.walk(dirpath):
-        for f in files:
-            ext = os.path.splitext(f)
-            if len(ext) > 1 and ext[1] == '.png':
-                filepath = os.path.join(root, f)
-                filebase = os.path.abspath(filepath).replace(prefix, '')
-                pngquant(filepath, filebase, comtype)
+    try:
+        prefix = os.path.abspath(dirpath) + '/'
+        for root, dirs, files in os.walk(dirpath):
+            for f in files:
+                ext = os.path.splitext(f)
+                if len(ext) > 1 and ext[1] == '.png':
+                    filepath = os.path.join(root, f)
+                    filebase = os.path.abspath(filepath).replace(prefix, '')
+                    pngquant(filepath, filebase, comtype)
+        print('[compress png] OK')
+        return True
+    except:
+        print('[compress png] Fail')
+        return False
 
 if __name__ == '__main__':
     compress(SOUR_DIR, 'Update')
