@@ -3,9 +3,10 @@
 
 import os
 import hashlib
+import common as helper
 
 def get_assets_path():
-    return '../../version/assets.lua'
+    return './package/version/assets.lua'
 
 def get_files_location():
     return [
@@ -25,8 +26,9 @@ def hash_one(filepath, filebase):
 
 def write_assets_lua(assets_content):
     assets_filepath = os.path.abspath(get_assets_path())
-    with open(assets_filepath, 'wt') as f:
-        f.write(assets_content)
+    if helper.mkdirs(assets_filepath):
+        with open(assets_filepath, 'wt') as f:
+            f.write(assets_content)
 
         
 def hash():
