@@ -1,7 +1,7 @@
 #!/user/bin/python
 # -*- coding: utf-8 -*-
 
-import os, sys, argparse
+import os
 import hashlib
 
 def get_assets_path():
