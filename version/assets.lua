@@ -307,6 +307,10 @@ return {
 		md5 = '3c182a4410bd5502a0304f5f7660c21f',
 		size = 9781
 	},
+	['image/background/timg2.jpeg'] = {
+		md5 = '9505a62e42b6cdaef3fc74f6a37ed769',
+		size = 45224
+	},
 	['image/icon/skill/skill_1.png'] = {
 		md5 = 'e50693db8b7c139b5c392a5c903deeb6',
 		size = 7306

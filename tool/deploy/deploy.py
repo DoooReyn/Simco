@@ -10,10 +10,10 @@ import encrypt_src  as encrypt
 import hash_file as hashtool
 
 def deploy(platform):
-    # cjpg.compress()
-    if cpng.compress(cpng.SOUR_DIR, 'Update'):
-        if encrypt.encrypt(platform):
-            hashtool.hash()
+    if cjpg.compress(cjpg.SOUR_DIR, 'Update'):
+        if cpng.compress(cpng.SOUR_DIR, 'Update'):
+            if encrypt.encrypt(platform):
+                hashtool.hash()
 
 if __name__ == '__main__':
     import sys
