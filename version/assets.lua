@@ -1,303 +1,303 @@
 return {
 	['config.luac'] = {
-		md5 = 'bd0fe6c47b8ae2ab39a427c3fd3ac12e',
-		size = 317
+		md5 = 'd9c4ce4b95afba756bc2670db35a57f3',
+		size = 685
 	},
 	['main.luac'] = {
-		md5 = '55062f3521cf1bf2d9b23b117a783d58',
-		size = 321
+		md5 = '30953db04e4270cb317aab2cd5931110',
+		size = 273
 	},
 	['app/app.luac'] = {
-		md5 = '28ef30988da4c67481e2f5338ab9bb67',
-		size = 609
+		md5 = '513170a36151cf3b4fe48cc5ceb3820d',
+		size = 789
 	},
 	['app/util/network/constant.luac'] = {
-		md5 = 'c782c0bf2d66c3b3c81c083b8211c51b',
-		size = 145
+		md5 = 'e22ae69b9f325b1e2ede5f5c5357875e',
+		size = 377
 	},
 	['app/util/network/hotupdate.luac'] = {
-		md5 = '321ebb7bb4edda1af77b47813332ba1c',
-		size = 49
+		md5 = '1556aef06971634b47323e6a214edd53',
+		size = 25
 	},
 	['app/util/network/download.luac'] = {
-		md5 = 'cec3a6361a4dbcdfe2d7ec51af647faf',
-		size = 2321
+		md5 = '409f080fc08a4b42ad43cf3827495cd1',
+		size = 4541
 	},
 	['app/util/network/subpackage.luac'] = {
-		md5 = '321ebb7bb4edda1af77b47813332ba1c',
-		size = 49
+		md5 = '1556aef06971634b47323e6a214edd53',
+		size = 25
 	},
 	['app/util/hotupdate/hotupdate.luac'] = {
-		md5 = '0fb411501c2e67ff2e7e7f9cb4b04962',
-		size = 2577
+		md5 = 'ec6ba025df308b831acf60396df82472',
+		size = 4585
 	},
 	['app/util/env/const.luac'] = {
-		md5 = '034a87ac8b54962c4f2325fedc3d7133',
-		size = 205
+		md5 = '364e293549ec104c071ca0b1ee35e66b',
+		size = 1149
 	},
 	['app/util/env/env.luac'] = {
-		md5 = '4f7083b43a9f02ac6ea5b03f8048b99a',
-		size = 981
+		md5 = '1dd39a5805931fcd103760cc5a74d21a',
+		size = 1517
 	},
 	['app/util/log/log.luac'] = {
-		md5 = 'b48b1f7c3e177a6066d087d3a7ac6640',
-		size = 637
+		md5 = '8a7f8aa4c82279cabf9bd10a78592435',
+		size = 833
 	},
 	['app/views/MainScene.luac'] = {
-		md5 = '235f8d3b36d6944bec9fcf8b635964ec',
-		size = 393
+		md5 = 'cfcf74f598b46ba4695a0ecc7726a43d',
+		size = 421
 	},
 	['cocos/init.luac'] = {
-		md5 = 'd869bd394b7c9cfcb3a3c6d71a5352c4',
-		size = 1829
+		md5 = '37c0ba83b513c441d830b18696f21ba1',
+		size = 3237
 	},
 	['cocos/ui/experimentalUIConstants.luac'] = {
-		md5 = '1e5cd6c30129692ffab15b0af53beaf3',
-		size = 145
+		md5 = '790e31675b17f70af66c52f4be05452d',
+		size = 161
 	},
 	['cocos/ui/DeprecatedUIFunc.luac'] = {
-		md5 = 'ddf071af79a7e2f87d0b2c66ab29b06d',
-		size = 5285
+		md5 = '3769e08913feab997b1a59952aff15cf',
+		size = 9861
 	},
 	['cocos/ui/GuiConstants.luac'] = {
-		md5 = '3538ffd3960279dd3356dc73fe072f5c',
-		size = 2665
+		md5 = '4077c670fa7fb7383e3096743d96cfb5',
+		size = 3433
 	},
 	['cocos/ui/DeprecatedUIEnum.luac'] = {
-		md5 = '0a56ea7f3164e7633db2430fa3451915',
-		size = 3509
+		md5 = '3897fa47790601857a1076ab44522766',
+		size = 5157
 	},
 	['cocos/3d/3dConstants.luac'] = {
-		md5 = '85588d795abc9e82106a742dd6cc0094',
-		size = 217
+		md5 = '93bce35fd97afbc938699a5ce33c4e9d',
+		size = 229
 	},
 	['cocos/cocosbuilder/DeprecatedCocosBuilderClass.luac'] = {
-		md5 = 'c4186800d1b25e978e8eb99d835f2c08',
-		size = 621
+		md5 = '7236e4dc9c57eb98e89ce911517bbc15',
+		size = 1205
 	},
 	['cocos/cocosbuilder/CCBReaderLoad.luac'] = {
-		md5 = 'b7e236da77c1d7652ab231e8c11c2c3e',
-		size = 2309
+		md5 = 'dbbe238e167587f9a6ea47d6169ba13c',
+		size = 5605
 	},
 	['cocos/extension/ExtensionConstants.luac'] = {
-		md5 = 'ea5200d84340fbab0876ee6a97764402',
-		size = 2261
-	},
-	['cocos/extension/DeprecatedExtensionClass.luac'] = {
-		md5 = 'b2f39919f4bd34de49f2a76de35608fb',
-		size = 2425
-	},
-	['cocos/extension/DeprecatedExtensionEnum.luac'] = {
-		md5 = '52b304b53ccf9a74ebbf25056558b980',
-		size = 1501
-	},
-	['cocos/extension/DeprecatedExtensionFunc.luac'] = {
-		md5 = '4cbd07615f347d6854ce84e700736c1f',
-		size = 869
-	},
-	['cocos/spine/SpineConstants.luac'] = {
-		md5 = '86b1077da720e41b652f0d4b57968b8c',
-		size = 209
-	},
-	['cocos/framework/transition.luac'] = {
-		md5 = 'afbc399af421467cab9d6a3efdb125f9',
-		size = 4889
-	},
-	['cocos/framework/audio.luac'] = {
-		md5 = 'fb502e456a87f6a03198980830cffdb5',
-		size = 4001
-	},
-	['cocos/framework/init.luac'] = {
-		md5 = '6e201444016191902b1794d7af480ae3',
-		size = 1513
-	},
-	['cocos/framework/package_support.luac'] = {
-		md5 = '309d804894d3ce21da516bf7d505e6d9',
+		md5 = 'd0ebe7124b0ea7c240b0b44408066223',
 		size = 2029
 	},
-	['cocos/framework/display.luac'] = {
-		md5 = '9a41e921b03ead149c05195e315786a4',
-		size = 12745
+	['cocos/extension/DeprecatedExtensionClass.luac'] = {
+		md5 = '54e325aa3b50a592179f915d4e75d7c9',
+		size = 4869
 	},
-	['cocos/framework/device.luac'] = {
-		md5 = '1584ced743ec6566d5cb2e918e898e67',
-		size = 1901
+	['cocos/extension/DeprecatedExtensionEnum.luac'] = {
+		md5 = '0fd53fff5b24b9aef779a4b9a949b466',
+		size = 1441
 	},
-	['cocos/framework/extends/UISlider.luac'] = {
-		md5 = '15b9902a2b85cd8c5a6e28bce644158c',
-		size = 221
+	['cocos/extension/DeprecatedExtensionFunc.luac'] = {
+		md5 = '91cc3795d1887505a46e5bb5ba3da421',
+		size = 1381
 	},
-	['cocos/framework/extends/UIScrollView.luac'] = {
-		md5 = '3d97f05bb51057b9a31892a4cbe0d930',
-		size = 585
+	['cocos/spine/SpineConstants.luac'] = {
+		md5 = '58f2e2f9d089d0b29b89da5772ce4b87',
+		size = 241
 	},
-	['cocos/framework/extends/LayerEx.luac'] = {
-		md5 = 'a413a50a88b64624923774be8b880000',
-		size = 1005
+	['cocos/framework/transition.luac'] = {
+		md5 = 'db5a0d1be0a3839bdfb779fdde24eb28',
+		size = 7553
 	},
-	['cocos/framework/extends/UIPageView.luac'] = {
-		md5 = 'b46d542deaaa5c55a216a81273c863d2',
-		size = 209
+	['cocos/framework/audio.luac'] = {
+		md5 = 'dd3cabcb1cc1a55007460498ede0a10c',
+		size = 5689
 	},
-	['cocos/framework/extends/MenuEx.luac'] = {
-		md5 = '715240153a5aa0f69cc7eea9d9b06782',
-		size = 153
-	},
-	['cocos/framework/extends/UIWidget.luac'] = {
-		md5 = 'ed44cf5f731c32b4a05af3a5becc5775',
-		size = 297
-	},
-	['cocos/framework/extends/SpriteEx.luac'] = {
-		md5 = '9b1bb1d691bb4b6182f64d780da2271f',
-		size = 741
-	},
-	['cocos/framework/extends/UITextField.luac'] = {
-		md5 = 'e61d28eb2c1141392c7bb21d90aae0c4',
-		size = 325
-	},
-	['cocos/framework/extends/NodeEx.luac'] = {
-		md5 = 'fb1d6f85fa20b556dd0d8a6393e29fea',
-		size = 2913
-	},
-	['cocos/framework/extends/UIListView.luac'] = {
-		md5 = '51f48408bf3b6b0adfd81310302ebd3d',
-		size = 765
-	},
-	['cocos/framework/extends/UICheckBox.luac'] = {
-		md5 = '1169d79b4471efeb3aed68e6aaee0c0a',
-		size = 233
-	},
-	['cocos/framework/extends/UIEditBox.luac'] = {
-		md5 = '227b035a2587f0aa5cd34f97f1ab43cc',
-		size = 285
-	},
-	['cocos/framework/components/event.luac'] = {
-		md5 = '9f67e89876b42f3da9c96689796d581b',
-		size = 3097
-	},
-	['cocos/network/DeprecatedNetworkFunc.luac'] = {
-		md5 = '6e573273a2ce3864c142b9190d4b965b',
-		size = 729
-	},
-	['cocos/network/DeprecatedNetworkEnum.luac'] = {
-		md5 = '9670c05e4794924c870a7760847ce490',
-		size = 549
-	},
-	['cocos/network/NetworkConstants.luac'] = {
-		md5 = '1674ce47c7f19c99d91013623bb473c1',
-		size = 561
-	},
-	['cocos/network/DeprecatedNetworkClass.luac'] = {
-		md5 = '9d155ac46cb2946c50ad6d0ba7037ca7',
-		size = 365
-	},
-	['cocos/controller/ControllerConstants.luac'] = {
-		md5 = '70c9d8afc5c33f09e3499a4ab2dcc697',
-		size = 557
-	},
-	['cocos/cocos2d/Opengl.luac'] = {
-		md5 = '71e55460e7668deec66f0a08f22598b6',
-		size = 4325
-	},
-	['cocos/cocos2d/DeprecatedCocos2dFunc.luac'] = {
-		md5 = 'b5f63d9d71d8f6349886644bff914e23',
-		size = 24721
-	},
-	['cocos/cocos2d/json.luac'] = {
-		md5 = 'ee07b376f01ba9b456f49cb4cb2ead6d',
-		size = 5093
-	},
-	['cocos/cocos2d/DeprecatedCocos2dEnum.luac'] = {
-		md5 = '289782fe65e9f885c05238338a72635d',
-		size = 20653
-	},
-	['cocos/cocos2d/deprecated.luac'] = {
-		md5 = 'eecd3c0a307b7caa441a05613522c0c5',
-		size = 429
-	},
-	['cocos/cocos2d/Cocos2dConstants.luac'] = {
-		md5 = '575a1eb99957c20b990473120284b310',
-		size = 15765
-	},
-	['cocos/cocos2d/DeprecatedCocos2dClass.luac'] = {
-		md5 = '5105d3e1caf6b7af71f104663a85c607',
-		size = 30285
-	},
-	['cocos/cocos2d/functions.luac'] = {
-		md5 = 'da697d75fbb03870cfccd9c4c2d92786',
-		size = 9513
-	},
-	['cocos/cocos2d/OpenglConstants.luac'] = {
-		md5 = '616020ad5dd0257aad2b17375cab6664',
-		size = 30261
-	},
-	['cocos/cocos2d/Cocos2d.luac'] = {
-		md5 = '208d865a79e1f37b97e04f8f236392de',
-		size = 9229
-	},
-	['cocos/cocos2d/luaj.luac'] = {
-		md5 = '956adcb2b5be564a84a69df064f426e7',
-		size = 477
-	},
-	['cocos/cocos2d/bitExtend.luac'] = {
-		md5 = '888d3d903302978e63b60aa3d80dc11f',
-		size = 1133
-	},
-	['cocos/cocos2d/DeprecatedOpenglEnum.luac'] = {
-		md5 = '6a9f6f05e6cfee7eb28689bec7244f78',
-		size = 15489
-	},
-	['cocos/cocos2d/luaoc.luac'] = {
-		md5 = 'f27a6823299f5372a55ca4b395c40d97',
-		size = 597
-	},
-	['cocos/cocos2d/DrawPrimitives.luac'] = {
-		md5 = '8d3b428404a4cb38ffc415b1f752b8fc',
-		size = 8373
-	},
-	['cocos/cocosdenshion/DeprecatedCocosDenshionFunc.luac'] = {
-		md5 = '3644a049d30307897b5022fb3404a35f',
-		size = 553
-	},
-	['cocos/cocosdenshion/AudioEngine.luac'] = {
-		md5 = '3d0258520c7411b0983ce238a2b5981f',
+	['cocos/framework/init.luac'] = {
+		md5 = '352900223e7013eb99b27c5862e0ed70',
 		size = 2737
 	},
+	['cocos/framework/package_support.luac'] = {
+		md5 = '738dfdd8b21a770f82367daa07bd5edf',
+		size = 4045
+	},
+	['cocos/framework/display.luac'] = {
+		md5 = 'f847174805996144d5eec0e1a99befd4',
+		size = 21381
+	},
+	['cocos/framework/device.luac'] = {
+		md5 = 'fc1a169e7e185f041faacdfc9f6d9d71',
+		size = 3881
+	},
+	['cocos/framework/extends/UISlider.luac'] = {
+		md5 = '95498b9dffb0de2de307fc13034301b7',
+		size = 1433
+	},
+	['cocos/framework/extends/UIScrollView.luac'] = {
+		md5 = 'e88425cd351d7b82a0a04a52294c8507',
+		size = 2241
+	},
+	['cocos/framework/extends/LayerEx.luac'] = {
+		md5 = '368248d0d2d2e4cb3e5afac7726dede3',
+		size = 2653
+	},
+	['cocos/framework/extends/UIPageView.luac'] = {
+		md5 = 'e391f727d59957c7e0d267713b182ba4',
+		size = 1425
+	},
+	['cocos/framework/extends/MenuEx.luac'] = {
+		md5 = '99faf33d7a314e99beeb49b3b0498aae',
+		size = 1269
+	},
+	['cocos/framework/extends/UIWidget.luac'] = {
+		md5 = '150d2b99b029cdb44fc56b2266867886',
+		size = 1601
+	},
+	['cocos/framework/extends/SpriteEx.luac'] = {
+		md5 = '98bfcb8aa4d18ec8067fe3925efeb27e',
+		size = 2185
+	},
+	['cocos/framework/extends/UITextField.luac'] = {
+		md5 = '485e78ffcf17fc5e0b756ac8588abce9',
+		size = 1665
+	},
+	['cocos/framework/extends/NodeEx.luac'] = {
+		md5 = 'af0df1dba17509dec51deebd4a91f2b1',
+		size = 5201
+	},
+	['cocos/framework/extends/UIListView.luac'] = {
+		md5 = '2eae43392f3887c217f27c2b86c78222',
+		size = 2557
+	},
+	['cocos/framework/extends/UICheckBox.luac'] = {
+		md5 = 'cb8bf6f1df697168b10ee66bcdc910ad',
+		size = 1477
+	},
+	['cocos/framework/extends/UIEditBox.luac'] = {
+		md5 = 'e0d48c8d8b5568e37f15f2c50744d883',
+		size = 1481
+	},
+	['cocos/framework/components/event.luac'] = {
+		md5 = '35fa3b9c08e9f5ad0edfb587e6b82684',
+		size = 4781
+	},
+	['cocos/network/DeprecatedNetworkFunc.luac'] = {
+		md5 = 'aa6755bb60c0b66322cba485079249f9',
+		size = 1153
+	},
+	['cocos/network/DeprecatedNetworkEnum.luac'] = {
+		md5 = '119d43de897e5e8096ede22a4bb2b3c4',
+		size = 553
+	},
+	['cocos/network/NetworkConstants.luac'] = {
+		md5 = '2e4de23bec2c9a2ed20a0c5f6434c530',
+		size = 541
+	},
+	['cocos/network/DeprecatedNetworkClass.luac'] = {
+		md5 = 'f7acc659656bd0d7c8368e4009556e06',
+		size = 593
+	},
+	['cocos/controller/ControllerConstants.luac'] = {
+		md5 = '38c34fc36be0d554862a3f4c4476dbbb',
+		size = 757
+	},
+	['cocos/cocos2d/Opengl.luac'] = {
+		md5 = 'ac6a6a9f6ee5302856f7df590674a68a',
+		size = 6885
+	},
+	['cocos/cocos2d/DeprecatedCocos2dFunc.luac'] = {
+		md5 = '85fb74946c421bf6f3ed1493ca4ad989',
+		size = 39501
+	},
+	['cocos/cocos2d/json.luac'] = {
+		md5 = 'aa6159b898d2bb7cb5928947feef856d',
+		size = 15385
+	},
+	['cocos/cocos2d/DeprecatedCocos2dEnum.luac'] = {
+		md5 = '04e8228f2bf05f8758f75a3afb8ef775',
+		size = 16901
+	},
+	['cocos/cocos2d/deprecated.luac'] = {
+		md5 = '64de5e4546ed102eb1f473e81b24076e',
+		size = 521
+	},
+	['cocos/cocos2d/Cocos2dConstants.luac'] = {
+		md5 = '4109eb7cc0007234597fc024f150ace6',
+		size = 16701
+	},
+	['cocos/cocos2d/DeprecatedCocos2dClass.luac'] = {
+		md5 = 'f3ea46cccafa6911e4862d8e60bd9dd1',
+		size = 60769
+	},
+	['cocos/cocos2d/functions.luac'] = {
+		md5 = 'd8705b67297865a360b901b53bdec4c2',
+		size = 17201
+	},
+	['cocos/cocos2d/OpenglConstants.luac'] = {
+		md5 = '09ae39eb28a62ea1b6138a0875dd3f70',
+		size = 27157
+	},
+	['cocos/cocos2d/Cocos2d.luac'] = {
+		md5 = 'ac568c65e08221da67dd84a07864c2d6',
+		size = 13413
+	},
+	['cocos/cocos2d/luaj.luac'] = {
+		md5 = 'e21891beb0ba6e221c97b4f1041f97bf',
+		size = 957
+	},
+	['cocos/cocos2d/bitExtend.luac'] = {
+		md5 = '906a95684ec48dc65d8d33facdec6e36',
+		size = 1621
+	},
+	['cocos/cocos2d/DeprecatedOpenglEnum.luac'] = {
+		md5 = '99c94411f274b931faf1b5946000e9ec',
+		size = 11965
+	},
+	['cocos/cocos2d/luaoc.luac'] = {
+		md5 = 'a934e6c00df1bd55ddca0a4f36e78975',
+		size = 909
+	},
+	['cocos/cocos2d/DrawPrimitives.luac'] = {
+		md5 = '76f58d7b0cbc4e9e311e719c530ca848',
+		size = 12053
+	},
+	['cocos/cocosdenshion/DeprecatedCocosDenshionFunc.luac'] = {
+		md5 = '8b9f2652e1226dfec13c6609bda08339',
+		size = 941
+	},
+	['cocos/cocosdenshion/AudioEngine.luac'] = {
+		md5 = '0dd038cc97e8dbe1effc65c48818575f',
+		size = 2697
+	},
 	['cocos/cocosdenshion/DeprecatedCocosDenshionClass.luac'] = {
-		md5 = '6ee88bdb208780775f586da088502629',
-		size = 381
+		md5 = '38f3cc258ec10a49d03503984fe7c585',
+		size = 693
 	},
 	['cocos/physics3d/physics3d-constants.luac'] = {
-		md5 = 'f254d94101a0cee03dace55a80f7db62',
-		size = 257
+		md5 = '092c7728395ac9a402dfeaaba50bdb4c',
+		size = 293
 	},
 	['cocos/cocostudio/DeprecatedCocoStudioClass.luac'] = {
-		md5 = '1cd9627e8ba53dd0bbd5f8587b2a0120',
-		size = 4697
+		md5 = 'e698f5cb1471a3ae10f6f3031b60c06c',
+		size = 10777
 	},
 	['cocos/cocostudio/CocoStudio.luac'] = {
-		md5 = '83d1f63fa2d06b4b112df73d7fbc420b',
-		size = 5801
+		md5 = 'a389681722fd917dd987aa8cae19717a',
+		size = 9465
 	},
 	['cocos/cocostudio/DeprecatedCocoStudioFunc.luac'] = {
-		md5 = '7ec95c94bfbeb53ceae1f3994da22836',
-		size = 1853
+		md5 = 'be5ab3f4a0977ea86c5a240e3b99c101',
+		size = 3485
 	},
 	['cocos/cocostudio/StudioConstants.luac'] = {
-		md5 = '16068234a9120fb24f570ff7836857b5',
-		size = 209
+		md5 = '9fb2eeb6155950a7ff6111349bbd6cc7',
+		size = 237
 	},
 	['packages/mvc/AppBase.luac'] = {
-		md5 = 'fb3338d3bf27721f0f281c4a8bda25c7',
-		size = 1317
+		md5 = '45f60323aead666e7480ad7eb42cf607',
+		size = 1885
 	},
 	['packages/mvc/init.luac'] = {
-		md5 = '99aa9f54ee7604193d26618a30d84491',
-		size = 129
+		md5 = '50d1907e06289240f624c378751688e3',
+		size = 125
 	},
 	['packages/mvc/ViewBase.luac'] = {
-		md5 = 'e6e3dbe293dfce7a605d30ac102adae8',
-		size = 1341
+		md5 = '8c8a569c6a68a4ed7fbaf5528ffb62bd',
+		size = 1917
 	},
 	['HelloWorld.png'] = {
 		md5 = '3c182a4410bd5502a0304f5f7660c21f',
