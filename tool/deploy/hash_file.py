@@ -13,7 +13,7 @@ def get_files_location():
         './package/Update/res/'
     ]
 
-def hash(filepath, filebase):
+def hash_one(filepath, filebase):
     filesize = os.path.getsize(filepath)
     with open(filepath, 'rb') as f:
         md5 = hashlib.md5()
@@ -29,7 +29,7 @@ def write_assets_lua(assets_content):
         f.write(assets_content)
 
         
-def gen_hash():
+def hash():
     hasharr = []
     hasharr.append('return {\n')
     for d in get_files_location():
@@ -38,13 +38,10 @@ def gen_hash():
             for f in files:
                 filepath = os.path.join(root, f)
                 filebase = os.path.abspath(filepath).replace(prefix, '')
-                # dirnae  = root[len(prefix)::]
-                # filebase = len(dirname) > 0 and (dirname + '/' + f) or f
-                # filepath = root + '/' + f
-                hasharr.append("\t['%s'] = {\n\t\tmd5 = '%s',\n\t\tsize = %d\n\t},\n" % (hash(filepath, filebase)))
+                hasharr.append("\t['%s'] = {\n\t\tmd5 = '%s',\n\t\tsize = %d\n\t},\n" % (hash_one(filepath, filebase)))
     hasharr.append('}\n')
     write_assets_lua(''.join(hasharr))
 
 
 if __name__ == '__main__':
-    gen_hash()
+    hash()
