@@ -10,8 +10,9 @@ def mkdirs(filepath):
     if not os.path.exists(filepath):
         try:
             os.makedirs(os.path.dirname(filepath))
+            return True
         except:
-            pass
+            return False
 
 
 def format_file_size(size):
