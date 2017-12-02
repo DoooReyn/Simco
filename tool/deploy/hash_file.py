@@ -9,12 +9,11 @@ def get_assets_path():
 
 def get_files_location():
     return [
-        '../../src/',
-        '../../res/'
+        './package/Update/src/',
+        './package/Update/res/'
     ]
 
 def hash(filepath, filebase):
-    filebase = filebase.replace('/', '.')
     filesize = os.path.getsize(filepath)
     with open(filepath, 'rb') as f:
         md5 = hashlib.md5()
@@ -37,9 +36,11 @@ def gen_hash():
         prefix = os.path.abspath(d) + '/'
         for root, dirs, files in os.walk(prefix):
             for f in files:
-                dirname  = root[len(prefix)::]
-                filebase = len(dirname) > 0 and (dirname + '/' + f) or f
-                filepath = root + '/' + f
+                filepath = os.path.join(root, f)
+                filebase = os.path.abspath(filepath).replace(prefix, '')
+                # dirnae  = root[len(prefix)::]
+                # filebase = len(dirname) > 0 and (dirname + '/' + f) or f
+                # filepath = root + '/' + f
                 hasharr.append("\t['%s'] = {\n\t\tmd5 = '%s',\n\t\tsize = %d\n\t},\n" % (hash(filepath, filebase)))
     hasharr.append('}\n')
     write_assets_lua(''.join(hasharr))

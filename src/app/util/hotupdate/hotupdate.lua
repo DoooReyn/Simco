@@ -80,7 +80,7 @@ function _M:parseVersion(filepath, locatetype)
     end
 
     local realpath = __fileutils:fullPathForFilename(filepath)
-    print(__strfmt('[hotupdate] %s version manifest located at %s', locatetype, realpath)
+    print(__strfmt('[hotupdate] %s version manifest located at %s', locatetype, realpath))
     
     local verstr = __fileutils:getStringFromFile(realpath)
     local json   = cjson.decode(verstr)
@@ -100,7 +100,7 @@ function _M:parseProject(filepath, locatetype)
     end
 
     local realpath = __fileutils:fullPathForFilename(filepath)
-    print(__strfmt('[hotupdate] %s project manifest located at %s', locatetype, realpath)
+    print(__strfmt('[hotupdate] %s project manifest located at %s', locatetype, realpath))
     
     local prostr  = __fileutils:getStringFromFile(realpath)
     local json    = cjson.decode(prostr)
