@@ -13,7 +13,8 @@ def deploy(platform):
     if cjpg.compress(cjpg.SOUR_DIR, 'Update'):
         if cpng.compress(cpng.SOUR_DIR, 'Update'):
             if encrypt.encrypt(platform):
-                hashtool.hash()
+                if hashtool.hash():
+                    print('[deploy] Everything is OK!')
 
 if __name__ == '__main__':
     import sys
