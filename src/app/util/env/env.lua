@@ -67,8 +67,8 @@ end
 function _M:load()
     self:console()
     cc.Director:getInstance():setDisplayStats(env('SHOW_FPS'))
-    cc.Director:getInstance():setAnimationInterval(1.0 / env('FPS_RATE'))
+    cc.Director:getInstance():setAnimationInterval(1.0 / env('LOW_FPS'))
 end
 
-return _M
+cc.exports.CGEnv = _M
 ------------------------------------------------------------

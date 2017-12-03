@@ -5,15 +5,15 @@
 -- 2. 分包
 --  - 负责后续资源的下载
 -- 3. 顺序
---  - 热更的搜索顺序高于分包高于本地，即： 热更 > 分包 > 本地
+--  - 热更的搜索顺序高于分包高于本地，即：热更 > 分包 > 本地
 --
 ------------------------------------------------------------
 
 local cjson = require 'cjson'
 
+local __strfmt      = string.format
 local __fileutils   =  cc.FileUtils:getInstance()
 local __storagePath =  __fileutils:getWritablePath()
-local __strfmt      = string.format
 
 -- update
 local __baseUrl     =  'http://192.168.1.102/~reyn/'
@@ -26,10 +26,23 @@ local __versionURL  =  __updateUrl   .. __versionLN
 local __projectURL  =  __updateUrl   .. __projectLN
 local __versionRN   =  __updatePath  .. __versionLN
 local __projectRN   =  __updatePath  .. __projectLN
-local __versionTN   =  __updatePath  .. 'version_temp.lua'
-local __projectTN   =  __updatePath  .. 'assets_temp.lua'
 local __locatetype  =  {'local', 'remote'}
 local __downloader  =  require('app.util.network.download')
+
+local __address = {
+    ['local'] = {
+        version = 'version/version.lua',
+        assets  = 'version/assets.lua',
+    },
+    ['remote'] = {
+        version = __baseUrl .. 'version/version.lua',
+        assets  = __baseUrl .. 'version/assets.lua',
+    },
+    ['temp'] = {
+        version = __updatePath .. 'version/version_temp.lua',
+        assets  = __updatePath .. 'version/assets_temp.lua',
+    }
+}
 
 -- extend
 local __extendSuf   =  'Extend/'

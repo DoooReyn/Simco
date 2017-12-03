@@ -15,15 +15,16 @@ local _M = class('App')
 
 function _M:run()
     math.randomseed(os.time())
-    cc.exports.CGEnv = require('app.util.env.env')
-    cc.exports.CGLog = require('app.util.log.log')
+    require('app.util.env.env')
+    require('app.util.log.stdout')
+    require('app.util.log.log')
     CGEnv:load()
-    cc.exports.hotupdate = require('app.util.hotupdate.hotupdate').new()
+    -- cc.exports.CGHotUpdate = require('app.util.hotupdate.hotupdate').new()
     
     cc.exports.CGMainScene = cc.Scene:create()
     cc.Director:getInstance():runWithScene(CGMainScene)
 
-    local sp = cc.Sprite:create('HelloWorld.png')
+    local sp = cc.Sprite:create('image/background/HelloWorld.png')
     if sp then
         sp:setPosition(display.center)
         sp:addTo(CGMainScene)

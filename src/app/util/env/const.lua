@@ -33,7 +33,9 @@ local __RELEASE__ = {
 -- COMMON BEGAN
 
 local __COMMON__ = {
-    FPS_RATE  = 60,
+    HIGH_FPS  = 60,
+    MID_FPS   = 52,
+    LOW_FPS   = 44,
     PACKAGEID = 1,
 }
 
