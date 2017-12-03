@@ -70,5 +70,5 @@ function _M:load()
     cc.Director:getInstance():setAnimationInterval(1.0 / env('LOW_FPS'))
 end
 
-cc.exports.CGEnv = _M
+return _M
 ------------------------------------------------------------

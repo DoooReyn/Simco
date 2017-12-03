@@ -5,10 +5,9 @@
 local _M = {}
 
 local __log__ = cc.FileUtils:getInstance():getWritablePath() .. 'log.txt'
-print('[CGLOG] located at : ' .. __log__)
-local __strfmt = string.format
 local isdump = CGEnv:getenv('DUMP_LOG')
 local issave = CGEnv:getenv('SAVE_LOG')
+print('[CGLOG] located at : ' .. __log__)
 
 local function save(log)
     local f = io.open(__log__, 'a+')
@@ -24,7 +23,7 @@ function _M:console(fmt, ...)
     
     local s = fmt
     if select('#', ...) > 0 then
-        s = __strfmt(fmt, ...)
+        s = CGFormat(fmt, ...)
     end
     s = '\n[CGLOG] (' .. os.date('%Y-%m-%d %H:%M:%S', os.time()) .. ') : \n' .. s
     if isdump then
@@ -35,4 +34,4 @@ function _M:console(fmt, ...)
     end
 end
 
-cc.exports.CGLog = _M
+return _M
