@@ -3,7 +3,7 @@
 --
 
 ----------------------------------------------
-local _C = require('app.util.env.const')
+local _C = require('app.util.env.constant')
 
 local setenv = function(key, v)
     _C[_C.MODE][key] = val
