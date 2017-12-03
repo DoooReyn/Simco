@@ -1,6 +1,11 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
+###########################################
+# @desc version deployment
+# @param platform : android/ios32/ios64
+###########################################
+
 import os
 import sys
 import common as helper

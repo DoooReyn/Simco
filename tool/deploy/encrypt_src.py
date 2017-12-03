@@ -1,5 +1,8 @@
 #!/user/bin/python
-# # -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
+###########################################
+# @desc: compile and encrypt lua files
+###########################################
 
 import os
 import sys

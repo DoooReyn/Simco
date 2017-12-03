@@ -1,5 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+###########################################
+# @desc: a tool for compressing png files
+###########################################
 
 import os
 import common as helper

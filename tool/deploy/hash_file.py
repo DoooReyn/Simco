@@ -1,5 +1,8 @@
 #!/user/bin/python
 # -*- coding: utf-8 -*-
+###########################################
+# @desc: a tool for hashing files
+###########################################
 
 import os
 import hashlib
