@@ -7,7 +7,7 @@ local _M = class('App')
 function _M:run()
     math.randomseed(os.time())
 
-    cc.setglobal({
+    CGSetGlobal({
         {'CGDirector',          cc.Director:getInstance()},
         {'CGEventDispatcher',   cc.Director:getInstance():getEventDispatcher()},
         {'CGFormat',            string.format},

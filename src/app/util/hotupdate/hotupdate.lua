@@ -9,8 +9,12 @@
 --
 ------------------------------------------------------------
 
--- local cjson = require 'cjson'
-local cjson = json
+CGSandBox({
+    try      = function() cc.exports.cjson = require('cjson') end,
+    catch    = function() cc.exports.cjson = json end,
+    finnally = function() print('cjson : ' .. tostring(cjson)) end,
+    dumpmsg  = true
+})
 
 local __strfmt       = string.format
 local __fileutils    = cc.FileUtils:getInstance()
