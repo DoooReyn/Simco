@@ -1,6 +1,5 @@
 .cocos-project.json
 .project
 .settings/
-frameworks/
 runtime/
 simulator/
