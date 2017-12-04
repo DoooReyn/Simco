@@ -16,10 +16,10 @@ local __strfmt       = string.format
 local __fileutils    = cc.FileUtils:getInstance()
 local __localAddr    = __fileutils:getWritablePath()
 local __remoteAddr   = 'http://192.168.1.102/~reyn/'
-local __version      = 'version/version.lua' 
-local __assets       = 'version/assets.lua'
-local __version_temp = 'version/version_temp.lua'
-local __assets_temp  = 'version/assets_temp.lua'
+local __version      = 'version/version.json' 
+local __assets       = 'version/assets.json'
+local __version_temp = 'version/version_temp.json'
+local __assets_temp  = 'version/assets_temp.json'
 local __downloader   = require('app.util.network.download')
 
 local __address = {
