@@ -9,7 +9,8 @@
 --
 ------------------------------------------------------------
 
-local cjson = require 'cjson'
+-- local cjson = require 'cjson'
+local cjson = json
 
 local __strfmt       = string.format
 local __fileutils    = cc.FileUtils:getInstance()
@@ -64,7 +65,7 @@ end
 
 -- 检查版本更新
 function _M:checkUpdate()
-    __downloader.new(__versionURL, __versionTN, handler(self, self.checkVersion)):start()
+    __downloader.new(__address['remote'].version, __address['temp'].version, handler(self, self.checkVersion)):start()
 end
 
 -- 解析版本文件
@@ -115,8 +116,8 @@ function _M:checkVersion(code, filepath)
         return
     end
     
-    self.local_version  = self:parseVersion(__versionLN, __locatetype[1])
-    self.remote_version = self:parseVersion(__versionTN, __locatetype[2])
+    self.local_version  = self:parseVersion(__address['local'].version, __locatetype[1])
+    self.remote_version = self:parseVersion(__address['temp'].version , __locatetype[2])
     
     if self.remote_version > self.local_version then
         __downloader.new(__projectRF, __projectRSF, handler(self, self.checkProject)):start()
@@ -131,8 +132,8 @@ function _M:checkProject(code, filepath)
         return
     end
     
-    self.local_project  = self:parseProject(__projectLN)
-    self.remote_project = self:parseProject(__projectTN)
+    self.local_project  = self:parseProject(__address['local'].assets)
+    self.remote_project = self:parseProject(__address['temp'].assets)
 
     local total_size, diff_files = self:diffProject()
 end
