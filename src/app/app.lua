@@ -29,6 +29,8 @@ function _M:run()
         sp:setPosition(display.center)
         sp:addTo(CGMainScene)
     end
+
+    CGGlobals()
 end
 
 return _M

@@ -31,6 +31,7 @@ local sandbox = function(block)
 end
 
 -- setglobal
+local _g = {}
 local setglobal = function(t)
     if type(t) ~= 'table' then
         return 
@@ -40,13 +41,27 @@ local setglobal = function(t)
         if v1 and v2 and type(v1) == 'string' then
             print('register global data : ' .. v[1])
             cc.exports[v1] = v2
+            table.insert(_g, v1)
         end
     end
 end
 
+local globals = function()
+    dump(_g)
+end
+
+local trycatch = function(try, catch)
+    return sandbox({
+        try      = try,
+        catch    = catch
+    })
+end
+
 setglobal(
     {
-        {"CGSetGlobal",setglobal},
-        {"CGSandBox",sandbox},
+        {"CGSetGlobal", setglobal},
+        {"CGGlobals",   globals},
+        {"CGSandBox",   sandbox},
+        {"CGTryCatch",  trycatch},
     }
 )
