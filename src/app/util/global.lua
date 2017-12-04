@@ -22,8 +22,8 @@ local sandbox = function(block)
     end
 
     -- run the 'block.finnally'
+    print('[sandbox] finnally : ' .. tostring(ok))
     if finnally then
-        print('[sandbox] finnally : ' .. tostring(ok))
         finnally(ok, err)
     end
     

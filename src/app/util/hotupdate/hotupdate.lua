@@ -9,12 +9,10 @@
 --
 ------------------------------------------------------------
 
-CGSandBox({
-    try      = function() cc.exports.cjson = require('cjson') end,
-    catch    = function() cc.exports.cjson = json end,
-    finnally = function() print('cjson : ' .. tostring(cjson)) end,
-    dumpmsg  = true
-})
+CGTryCatch(
+    function() cc.exports.cjson = require('cjson') end,
+    function() cc.exports.cjson = json end
+)
 
 local __strfmt       = string.format
 local __fileutils    = cc.FileUtils:getInstance()
