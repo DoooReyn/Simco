@@ -9,8 +9,8 @@ import sys
 
 SOURCE_DIR = '../../src/'
 OUT_DIR = './package/Update/src/'
-KEY  = 'reyn@simco@07171991@KEY'
-SIGN = '!19917170!comis!nyer@SIGN'
+KEY  = 'DoooReyn@Simco@KEY'
+SIGN = 'SIGN@Simco@DoooReyn'
 
 def encrypt_lua_file_for_android(src, out, key, sign):
     cmd = "cocos luacompile -s %s -d %s -e -k %s -b %s" % (src, OUT_DIR, key, sign)

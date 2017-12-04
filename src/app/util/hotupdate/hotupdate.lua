@@ -11,43 +11,30 @@
 
 local cjson = require 'cjson'
 
-local __strfmt      = string.format
-local __fileutils   =  cc.FileUtils:getInstance()
-local __storagePath =  __fileutils:getWritablePath()
-
--- update
-local __baseUrl     =  'http://192.168.1.102/~reyn/'
-local __updateSuf   =  'Update/'
-local __updateUrl   =  __baseUrl .. __updateSuf
-local __versionLN   =  'version.lua' 
-local __projectLN   =  'assets.lua'
-local __updatePath  =  __storagePath .. __updateSuf
-local __versionURL  =  __updateUrl   .. __versionLN
-local __projectURL  =  __updateUrl   .. __projectLN
-local __versionRN   =  __updatePath  .. __versionLN
-local __projectRN   =  __updatePath  .. __projectLN
-local __locatetype  =  {'local', 'remote'}
-local __downloader  =  require('app.util.network.download')
+local __strfmt       = string.format
+local __fileutils    = cc.FileUtils:getInstance()
+local __localAddr    = __fileutils:getWritablePath()
+local __remoteAddr   = 'http://192.168.1.102/~reyn/'
+local __version      = 'version/version.lua' 
+local __assets       = 'version/assets.lua'
+local __version_temp = 'version/version_temp.lua'
+local __assets_temp  = 'version/assets_temp.lua'
+local __downloader   = require('app.util.network.download')
 
 local __address = {
     ['local'] = {
-        version = 'version/version.lua',
-        assets  = 'version/assets.lua',
+        version = __version,
+        assets  = __assets,
     },
     ['remote'] = {
-        version = __baseUrl .. 'version/version.lua',
-        assets  = __baseUrl .. 'version/assets.lua',
+        version = __remoteAddr .. __version,
+        assets  = __remoteAddr .. __assets,
     },
     ['temp'] = {
-        version = __updatePath .. 'version/version_temp.lua',
-        assets  = __updatePath .. 'version/assets_temp.lua',
+        version = __localAddr .. __version_temp,
+        assets  = __localAddr .. __assets_temp,
     }
 }
-
--- extend
-local __extendSuf   =  'Extend/'
-local __extendUrl   =  __baseUrl .. __extendSuf
-local __extendPath  =  __storagePath .. __extendSuf
 
 ------------------------------------------------------------
 
@@ -55,18 +42,15 @@ local _M = class('hotupdate')
 
 function _M:ctor()
     self:checkSearchPath()
-    self:checkUpdate()
+    -- self:checkUpdate()
 end
 
 -- 检查搜索路径
 function _M:checkSearchPath()
     local pathes = {
-        __updatePath,
-        __extendPath,
-        __updatePath .. 'res/',
-        __updatePath .. 'src/',
-        __extendPath .. 'res/',
-        __extendPath .. 'src/',
+        __localAddr .. 'res/',
+        __localAddr .. 'src/',
+        __localAddr .. 'version/',
     }
     for _, v in ipairs(pathes) do
         if not __fileutils:isDirectoryExist(v) then
