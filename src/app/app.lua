@@ -19,7 +19,7 @@ function _M:run()
     cc.exports.CGLog = require('app.util.log.log')
     CGEnv:load()
     
-    -- cc.exports.CGHotUpdate = require('app.util.hotupdate.hotupdate').new()
+    cc.exports.CGHotUpdate = require('app.util.hotupdate.hotupdate').new()
     
     cc.exports.CGMainScene = cc.Scene:create()
     CGDirector:runWithScene(CGMainScene)
