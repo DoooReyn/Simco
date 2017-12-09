@@ -7,11 +7,9 @@ local _M = class('App')
 function _M:run()
     math.randomseed(os.time())
 
-    CGSetGlobal({
-        {'CGDirector',          cc.Director:getInstance()},
-        {'CGEventDispatcher',   cc.Director:getInstance():getEventDispatcher()},
-        {'CGFormat',            string.format},
-    })
+    cc.exports.CGDirector        = cc.Director:getInstance()
+    cc.exports.CGEventDispatcher = CGDirector:getEventDispatcher()
+    cc.exports.CGFormat          = string.format
 
     
     cc.exports.CGEnv = require('app.util.env.env')

@@ -1,5 +1,7 @@
 
 cc.FileUtils:getInstance():setPopupNotify(false)
+cc.FileUtils:getInstance():addSearchPath('cocos-framework')
+
 
 require "config"
 require "cocos.init"
